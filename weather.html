@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+    <link  rel="stylesheet" href="index.css" >
+</head>
+<body>
+  <div>
+    <form name="weatherForm" onsubmit="fetchapi(event) ">
+        <label for="Name">pays:</label>
+        <input type="text" name="pays"  />
+       
+        <button  class="btn" type="submit">submit</button>
+      
+      </form>
+
+   <div>
+      <p>tmp:<span class="tmp" ></span></p>
+   <img  class="img" src="" alt="" >
+   </div>
+   <button class="btn"  ><a href="./register.html" >  register</a></button>
+   <button class="btn"  ><a href="./login.html" >  login</a></button>
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/axios@1.7.2/dist/axios.min.js"></script>
+    <script src="script.js" ></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+body{
+    font-size: 50px;
+}
+input{
+    height: 50px;
+    font-size: 50px;
+}
+.btn{
+    height: 100px;
+    width: 180px;
+    font-size: 50px;
+}
